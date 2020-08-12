@@ -8,6 +8,8 @@
     --secondaryText: #4b5156;
 
     --themeDotBorder: #24292e;
+
+    --previewBg: rgb(251, 249, 243, 0.8); 
 }
 
 html, body {
@@ -203,6 +205,18 @@ padding: 10px;
 
 .right-column{
     grid-area: right-column;
+}
+
+#preview{
+    width: 300px;
+    border: 1.5 solid #17a2b8;
+    background-color: var(--previewBg);
+    padding: 15px;
+}
+
+.corner{
+    width: 7px;
+    height: 7px;
 }
 
 @media screen and (max-width: 1200px){
